@@ -16,7 +16,7 @@ body {
 .navmeny li a {
 	display: block;
 	text-align: center;
-	padding: 10px 50px;
+	padding: 14px 50px;
 	text-decoration: none;
 	color: white;
 }
@@ -26,14 +26,11 @@ li a:hover {
 .aktiv {
 	background-color: #5aa61f;
 }
-.mat {
-	margin-top: 50px;
-}
-.mat li {
-	font-size: 15px;
-	list-style-type: none;
-	padding: 20px;
-}
 h1 {
-	margin: 20px;
+	margin: 0px;
+	padding: 18px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-bottom: 1px solid black;
 }
