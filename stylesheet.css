@@ -2,27 +2,38 @@ body {
 	margin:0;
 	font-family: arial;
 }
-ul {
+.navmeny {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #cf1515;
+	border-bottom: 1px solid black;
 }
-li {
+.navmeny li {
 	float: left;
 }
-li a {
+.navmeny li a {
 	display: block;
 	text-align: center;
 	padding: 10px 50px;
 	text-decoration: none;
 	color: white;
-	border-right: 3px solid black;
 }
 li a:hover {
 	background-color: #ababab;
 }
 .aktiv {
 	background-color: #5aa61f;
+}
+.mat {
+	margin-top: 50px;
+}
+.mat li {
+	font-size: 15px;
+	list-style-type: none;
+	padding: 20px;
+}
+h1 {
+	margin: 20px;
 }
